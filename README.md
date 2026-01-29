@@ -8,7 +8,7 @@ El framework actualmente cuenta con cobertura para los flujos críticos de acces
 
 
 
-## 🚀 Cómo empezar (Clonado y Setup)
+##  Cómo empezar (Clonado y Setup)
 
 Si deseas replicar este proyecto en tu máquina local, sigue estos pasos:
 
