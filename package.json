@@ -1,0 +1,30 @@
+{
+  "name": "dex-manager-automation",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas para Dex Manager usando Playwright + TypeScript + POM",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:media": "playwright test tests/media-library.spec.ts"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "testing",
+    "pom"
+  ],
+  "author": "Challenge QA",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.3.0"
+  }
+}
