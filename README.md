@@ -6,6 +6,20 @@ Proyecto de automatización de pruebas para Dex Manager utilizando el patrón Pa
 
 El framework actualmente cuenta con cobertura para los flujos críticos de acceso y gestión inicial de contenidos.
 
+
+
+## 🚀 Cómo empezar (Clonado y Setup)
+
+Si deseas replicar este proyecto en tu máquina local, sigue estos pasos:
+
+### 1. Clonar el repositorio
+Abre una terminal y ejecuta el siguiente comando:
+
+```bash
+
+git clone https://github.com/Alvaro-QA/Challenge-DexManager.git
+cd Challenge-DexManager 
+```
 ### Login Tests (tests/login.spec.ts)
 
 | ID | Descripción | Prioridad |
@@ -46,7 +60,6 @@ Copie el archivo de ejemplo: cp .env.example .env
 
 Complete los datos en el archivo .env con sus credenciales:
 
-Fragmento de código
 BASE_URL=
 DB_USER=tu_usuario
 DB_PASS=tu_password
