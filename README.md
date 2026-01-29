@@ -20,26 +20,6 @@ Abre una terminal y ejecuta el siguiente comando:
 git clone https://github.com/Alvaro-QA/Challenge-DexManager.git
 cd Challenge-DexManager 
 ```
-### Login Tests (tests/login.spec.ts)
-
-| ID | Descripción | Prioridad |
-|----|-------------|-----------|
-| TC_LOGIN_01 | Login exitoso con credenciales válidas (desde .env) | Crítica |
-| TC_LOGIN_02 | Verificación de elementos visuales (Inputs, botones y etiquetas) | Alta |
-| TC_LOGIN_03 | Manejo de credenciales inválidas y cierre de diálogo de error | Alta |
-| TC_LOGIN_04 | Validación de mensaje "Usuario requerido" al dejar campo vacío | Media |
-| TC_LOGIN_05 | Validación de mensaje "Contraseña requerida" al dejar campo vacío | Media |
-| TC_LOGIN_06 | Flujo completo de recuperación de contraseña (Forgot Password) | Alta |
-
-### Media Library Tests (tests/media-library-folder.spec.ts)
-
-| ID | Descripción | Prioridad |
-|----|-------------|-----------|
-| TC_DM_MEDIA_01 | Creación de carpeta con nombre único y validación en el DOM | Alta |
-
-**Total: 7 casos de prueba certificados.**
-
----
 
 ## Instalación y Configuración
 
@@ -81,6 +61,25 @@ DB_PASS=tu_password
 * **utils/**: Funciones de ayuda como generadores de nombres únicos y manejo de fechas.
 * **playwright-report/**: Reporte HTML generado automáticamente tras la ejecución.
 * **test-results/**: Evidencias de fallos (screenshots, videos y traces).
+
+### Login Tests (tests/login.spec.ts)
+
+| ID | Descripción | Prioridad |
+|----|-------------|-----------|
+| TC_LOGIN_01 | Login exitoso con credenciales válidas (desde .env) | Crítica |
+| TC_LOGIN_02 | Verificación de elementos visuales (Inputs, botones y etiquetas) | Alta |
+| TC_LOGIN_03 | Manejo de credenciales inválidas y cierre de diálogo de error | Alta |
+| TC_LOGIN_04 | Validación de mensaje "Usuario requerido" al dejar campo vacío | Media |
+| TC_LOGIN_05 | Validación de mensaje "Contraseña requerida" al dejar campo vacío | Media |
+| TC_LOGIN_06 | Flujo completo de recuperación de contraseña (Forgot Password) | Alta |
+
+### Media Library Tests (tests/media-library-folder.spec.ts)
+
+| ID | Descripción | Prioridad |
+|----|-------------|-----------|
+| TC_DM_MEDIA_01 | Creación de carpeta con nombre único y validación en el DOM | Alta |
+
+**Total: 7 casos de prueba certificados.**
 
 ---
 
