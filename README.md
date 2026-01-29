@@ -31,7 +31,7 @@ cd Challenge-DexManager
 | TC_LOGIN_05 | Validación de mensaje "Contraseña requerida" al dejar campo vacío | Media |
 | TC_LOGIN_06 | Flujo completo de recuperación de contraseña (Forgot Password) | Alta |
 
-### Media Library Tests (tests/media.spec.ts)
+### Media Library Tests (tests/media-library-folder.spec.ts)
 
 | ID | Descripción | Prioridad |
 |----|-------------|-----------|
